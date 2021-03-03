@@ -1,0 +1,122 @@
+/* Block */
+.btn {
+  text-decoration: none;
+  background-color: white;
+  color: #888;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 5px; }
+
+/* Element */
+.btn__price {
+  background-color: white;
+  color: #fff;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: -10px;
+  /* realign button text padding */
+  font-weight: 600;
+  background-color: #333;
+  opacity: .4;
+  border-radius: 5px 0 0 5px; }
+
+/* Element */
+.btn__text {
+  padding: 0 10px;
+  border-radius: 0 5px 5px 0; }
+
+/* Modifier */
+.btn--big {
+  font-size: 28px;
+  padding: 10px;
+  font-weight: 400; }
+
+/* Modifier */
+.btn--blue {
+  border-color: #0074D9;
+  color: white;
+  background-color: #0074D9; }
+
+/* Modifier */
+.btn--orange {
+  border-color: #FF4136;
+  color: white;
+  background-color: #FF4136; }
+
+/* Modifier */
+.btn--green {
+  border-color: #3D9970;
+  color: white;
+  background-color: #3D9970; }
+
+/* Modifier */
+.btn--white {
+  border-color: grey;
+  color: white;
+  background-color: grey; }
+
+.headline-primary {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: -0.025em;
+  font-size: 3em;
+  line-height: 1.1em;
+  margin-bottom: 0;
+  color: #555;
+  margin-top: 0; }
+
+.headline-secondary {
+  font-family: Arial;
+  font-weight: 100;
+  font-size: 1.5em;
+  color: #ccc;
+  letter-spacing: .1em; }
+
+.headline-secondary {
+  margin-bottom: 1em; }
+
+.form {
+  text-align: left; }
+  .form__label {
+    display: block;
+    margin-bottom: 10px; }
+  .form__input {
+    width: 100%;
+    max-width: 100%;
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 3px solid #aaa;
+    border-radius: 7px;
+    background: #eee;
+    color: black;
+    font-weight: 100; }
+    .form__input:focus {
+      border-color: steelblue;
+      outline: none; }
+  .form__btn {
+    display: block;
+    width: 100%;
+    padding: 1.25em;
+    border-radius: 7px;
+    border: none;
+    color: grey;
+    margin-top: 1.5em; }
+    .form__btn:hover {
+      opacity: .9;
+      background: black; }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 0;
+  text-align: center; }
+
+p {
+  color: #666;
+  margin-top: 3em;
+  line-height: 1.6; }
